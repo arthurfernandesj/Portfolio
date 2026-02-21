@@ -2,10 +2,16 @@ import React from 'react'
 
 function App() {
   return (
-    <div className='text-7'>
-     Appzinhoo
-    </div>
-  )
-}
+    <div className='min-h-screen bg-black'>
+     <Navbar />
+     <main>  
 
-export default App
+      <Hero />
+
+     </main>
+    </div>
+
+  );
+};
+
+export default App;
